@@ -15,7 +15,7 @@ body {
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  background-image: linear-gradient(to top, #3078a8 0%, #1630a3 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,7 +60,7 @@ main {
 }
 .player--winner .name {
   font-weight: 700;
-  color: #c7365f;
+  color: #3078a8;
 }
 
 /* ELEMENTS */
@@ -77,12 +77,12 @@ main {
 .score {
   font-size: 8rem;
   font-weight: 300;
-  color: #c7365f;
+  color: #3078a8;
   margin-bottom: auto;
 }
 
 .current {
-  background-color: #c7365f;
+  background-color: #3078a8;
   opacity: 0.8;
   border-radius: 9px;
   color: #fff;
@@ -115,11 +115,11 @@ main {
   cursor: pointer;
   font-weight: 400;
   transition: all 0.2s;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: white;
   backdrop-filter: blur(10px);
   padding: 0.7rem 2.5rem;
   border-radius: 50rem;
-  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.212);
 }
 .btn::first-letter {
   font-size: 2.4rem;
